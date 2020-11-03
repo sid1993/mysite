@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: #66BFBF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #40514E;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: .33em;
+    border-color: grey;
+    width: 5%;
+    margin: 5% auto 5% auto;
+}
+h1{
+    font-size: 5.6rem;
+    color: #66BFBF;
+    font-family: 'Cookie', cursive;
+    width: 20%;
+    margin: 0 auto;
+    
+}
+h2{
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    color: #66BFBF;
+}
+h3{
+    
+    font-family: 'Merriweather', serif;
+    color: #66BFBF;
+}
+
+.top-container{
+    position: relative;
+    padding-top: 5%;
+    background-color: #EAF6F6;
+}
+
+.middle-container{
+    background-color: white;
+    padding-top: 1%;
+   
+}
+
+.bottom-container{
+    margin: 1% auto;
+}
+.contact-me{
+    padding-bottom: 3%;
+}
+.btn{
+    background-color:white;
+    border: .1em  solid #66BFBF;
+    border-radius: .1em;
+    color:  #66BFBF;
+    text-decoration: none;
+
+}
+.btn:hover {      background-color:  #66BFBF;      color:white; }
+.skill1{
+    padding: 1%;
+    width: 25%;
+    float: left;
+    padding-right: 5%;
+}
+
+.skill2{
+    padding: 1%;
+    width: 25%;
+    float: right;
+    padding-left: 5%;
+}
+.skill-row{
+    width: 50%;
+    margin: 3.2em auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    text-align: left;
+}
+.profile_picture{
+    width: 14em;
+    height: 14em;
+}
+
+.cloud-bottom{
+    position: absolute;
+}
+.cloud-top{
+    position: relative;
+    top: 4em;
+    left: 14em;
+}
+.mountain{
+    width: 37.5em;
+    height: 22.5em;
+}
+img:hover{
+    animation:zoominoutsinglefeatured 1s ease-in-out;
+}
+@keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.1,1.1);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+.copyright{
+    color: white;
+}
+.footer-link{
+    text-decoration: none;
+    padding: 1%;
+    color: #11999E;
+}
