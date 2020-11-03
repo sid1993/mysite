@@ -141,3 +141,6 @@ img:hover{
     padding: 1%;
     color: #11999E;
 }
+a:hover{
+    color: whitesmoke;
+}
